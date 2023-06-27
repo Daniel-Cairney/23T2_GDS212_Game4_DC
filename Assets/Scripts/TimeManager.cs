@@ -1,33 +1,47 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
+using TMPro;
 public class TimeManager : MonoBehaviour
 {
-    public Text timerText;
-    private float startTime;
-    private bool isTimerRunning = true;
+    public TMP_Text timeText;
+    private static float currentTime;
+    private static bool isTimerRunning = true;
 
     private void Start()
     {
-        startTime = Time.time;
+        currentTime = 0f;
+        isTimerRunning = true;
     }
 
     private void Update()
     {
         if (isTimerRunning)
         {
-            float elapsedTime = Time.time - startTime;
-            int minutes = (int)(elapsedTime / 60);
-            int seconds = (int)(elapsedTime % 60);
-            string timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
-            timerText.text = timerString;
+            currentTime += Time.deltaTime;
+            timeText.text = "Time: " + currentTime.ToString("F2");
         }
     }
 
-    public void StopTimer()
+    public static float GetElapsedTime()
+    {
+        return currentTime;
+    }
+
+    public static void StopTimer()
     {
         isTimerRunning = false;
+    }
+
+    public static void ResetTimer()
+    {
+        currentTime = 0f;
+        isTimerRunning = true;
+    }
+
+    public void GameOver()
+    {
+        StopTimer();
+        SceneManager.LoadScene("GameOverScene");
     }
 }

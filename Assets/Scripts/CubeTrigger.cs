@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class CubeTrigger : MonoBehaviour
 {
-    public TimeManager timerManager;
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
