@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cb31a935025fb4345945f3a9af9b1a38
+guid: 63f5094378c48674e9bf9378f0754fa7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,31 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -153,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BirdSpritesheet_0
+      name: Dirtycloud_generated-PhotoRoom_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 248.25
-        width: 127.75
-        height: 82.75
+        y: 669
+        width: 640
+        height: 437
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +143,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f90708631450ae44187aad8da81171a5
-      internalID: 2047238181
+      spriteID: b1f22a1b3bdd782409ee36938879a3b4
+      internalID: -1592059788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdSpritesheet_3
+      name: Dirtycloud_generated-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 683
+        width: 640
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935240ae5bcf1a74c849b16215d6b397
+      internalID: 1421867837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirtycloud_generated-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 658
+        width: 640
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1995bacaf608de43b20a48ab7841e75
+      internalID: 1966952452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirtycloud_generated-PhotoRoom_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 130
-        height: 80
+        y: 368
+        width: 640
+        height: 260
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,20 +206,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16ef6075e8a58364bb2ce4a102e1325b
-      internalID: -1146674772
+      spriteID: 8c5de24ebded25c4d8832e37a097f117
+      internalID: 1240790424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdSpritesheet_10
+      name: Dirtycloud_generated-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 312
+        width: 640
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116b009b7f79ea41b490f07f7116caa
+      internalID: 740581714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirtycloud_generated-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 369
+        width: 640
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1294436694a6844ba3ea577478d4a6
+      internalID: -1458562648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirtycloud_generated-PhotoRoom_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 129
-        height: 85
+        y: 1.3333435
+        width: 640
+        height: 368.66666
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26172f2cc56846a4f882d11bcb077ef8
-      internalID: 1736274769
+      spriteID: e5f2beafa7cbc574da09470cb08145ab
+      internalID: -1630352858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdSpritesheet_11
+      name: Dirtycloud_generated-PhotoRoom_7
       rect:
         serializedVersion: 2
-        x: 129
-        y: 0
-        width: 129
-        height: 85
+        x: 640
+        y: 1
+        width: 640
+        height: 306
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 284b6946f7ced8d43b22477ebbe9a228
-      internalID: 1043731153
+      spriteID: 5e057c71141378f40ac10511cd94a3bc
+      internalID: 1689707676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdSpritesheet_12
+      name: Dirtycloud_generated-PhotoRoom_8
       rect:
         serializedVersion: 2
-        x: 258
-        y: 2
-        width: 126
-        height: 83
+        x: 1280
+        y: 1.3333435
+        width: 640
+        height: 368.66666
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,113 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 490954cab88a3dc47bc30d4a82e51c30
-      internalID: 1368680524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdSpritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 2
-        width: 130
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 322122895b179d24f91f60f47d8cd486
-      internalID: 51749766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdSpritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 2
-        width: 127
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89eb441f8baacd6459e037f99073aa7e
-      internalID: -1680141544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdSpritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 645
-        y: 2
-        width: 120
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5d260a74d6d7424096120db85f78e53
-      internalID: 326471856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdSpritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 772
-        y: 2
-        width: 118
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b389e4e394897f4d82524025d7fc513
-      internalID: 1965498250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BirdSpritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 898
-        y: 2
-        width: 124
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d8526643b2f964469cf616c989731e6
-      internalID: 1531152276
+      spriteID: 0b3224d52b812df4485cfd0bf3d94742
+      internalID: -358676103
       vertices: []
       indices: 
       edges: []
@@ -373,24 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BirdSpritesheet_0: 2047238181
-      BirdSpritesheet_1: 720074063
-      BirdSpritesheet_10: 1736274769
-      BirdSpritesheet_11: 1043731153
-      BirdSpritesheet_12: 1368680524
-      BirdSpritesheet_13: 51749766
-      BirdSpritesheet_14: -1680141544
-      BirdSpritesheet_15: 326471856
-      BirdSpritesheet_16: 1965498250
-      BirdSpritesheet_17: 1531152276
-      BirdSpritesheet_2: 1498643617
-      BirdSpritesheet_3: -1146674772
-      BirdSpritesheet_4: -815636644
-      BirdSpritesheet_5: 911142202
-      BirdSpritesheet_6: 404415099
-      BirdSpritesheet_7: 1644729394
-      BirdSpritesheet_8: -859073101
-      BirdSpritesheet_9: 1076668288
+      Dirtycloud_generated-PhotoRoom_0: -1592059788
+      Dirtycloud_generated-PhotoRoom_1: 1421867837
+      Dirtycloud_generated-PhotoRoom_2: 1966952452
+      Dirtycloud_generated-PhotoRoom_3: 1240790424
+      Dirtycloud_generated-PhotoRoom_4: 740581714
+      Dirtycloud_generated-PhotoRoom_5: -1458562648
+      Dirtycloud_generated-PhotoRoom_6: -1630352858
+      Dirtycloud_generated-PhotoRoom_7: 1689707676
+      Dirtycloud_generated-PhotoRoom_8: -358676103
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
