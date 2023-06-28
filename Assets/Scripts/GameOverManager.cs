@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class GameOverManager : MonoBehaviour
 {
-    public Text scoreText;
+    public TMP_Text scoreText;
 
     private void Start()
     {
