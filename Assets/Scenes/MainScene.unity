@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 728790801}
+  timerManager: {fileID: 2735635268042857331, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
 --- !u!4 &257756983
 Transform:
   m_ObjectHideFlags: 0
@@ -491,7 +492,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Timer
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7dcd04577c925d8429fb38e9f4c6e5ef, type: 2}
   m_sharedMaterial: {fileID: 3448412443036470949, guid: 7dcd04577c925d8429fb38e9f4c6e5ef, type: 2}
@@ -666,6 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  StartPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &919443362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,14 +1067,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 939644568, guid: de975d8f8de1ad64ab0cacfc74d2c036, type: 3}
-      propertyPath: obstaclePrefabs.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 939644568, guid: de975d8f8de1ad64ab0cacfc74d2c036, type: 3}
-      propertyPath: obstaclePrefabs.Array.data[2]
-      value: 
-      objectReference: {fileID: 139654709340955075, guid: 547771e44bf8df54eb9fb20a22d7af65, type: 3}
     - target: {fileID: 1126427520239382893, guid: de975d8f8de1ad64ab0cacfc74d2c036, type: 3}
       propertyPath: m_RootOrder
       value: 2

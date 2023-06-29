@@ -5,9 +5,9 @@ using UnityEngine;
 public class BirdMovement : MonoBehaviour
 {
     Rigidbody2D rb;
-    float dirX;
-    float dirY;
-    float moveSpeed = 20f;
+    [SerializeField] private float dirX;
+    [SerializeField] private float dirY;
+    [SerializeField] private float moveSpeed = 20f;
 
     private void Start()
     {
@@ -17,8 +17,9 @@ public class BirdMovement : MonoBehaviour
         float initialTiltY = Input.acceleration.y;
 
         // Set the initial tilt as the starting value
-        dirX = initialTiltX * moveSpeed;
-        dirY = initialTiltY * moveSpeed;
+        
+        dirX = initialTiltX - Input.acceleration.x;
+        dirY = initialTiltY - Input.acceleration.y;
     }
 
     private void Update()

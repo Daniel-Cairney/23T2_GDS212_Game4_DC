@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeSpawner : MonoBehaviour
+public class ObstacleSpawner : MonoBehaviour
 {
-    public GameObject[] obstaclePrefabs; // Array of obstacle prefabs to randomly spawn
-    public float initialSpawnInterval = 2f; // Initial time interval between each spawn
-    public float minSpawnInterval = 0.5f; // Minimum time interval between spawns
-    public float spawnIntervalDecrease = 0.1f; // Amount of time interval decrease per spawn
-    public BoxCollider2D spawnArea; // BoxCollider2D defining the spawn area
-    public float obstacleSpeed = 5f; // Fixed downward speed for the spawned obstacles
+   [SerializeField] private GameObject[] obstaclePrefabs; // Array of obstacle prefabs to randomly spawn
+   [SerializeField] private float initialSpawnInterval = 2f; // Initial time interval between each spawn
+   [SerializeField] private float minSpawnInterval = 0.5f; // Minimum time interval between spawns
+   [SerializeField] private float spawnIntervalDecrease = 0.1f; // Amount of time interval decrease per spawn
+   [SerializeField] private BoxCollider2D spawnArea; // BoxCollider2D defining the spawn area
+   [SerializeField] private float obstacleSpeed = 5f; // Fixed downward speed for the spawned obstacles
 
     private float currentSpawnInterval; // Current spawn interval
 

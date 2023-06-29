@@ -313,7 +313,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474942309}
-  - component: {fileID: 474942308}
   - component: {fileID: 474942310}
   m_Layer: 0
   m_Name: TimeManager
@@ -321,20 +320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &474942308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474942307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2eba7654c437b4bbc70818c0cb59b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeText: {fileID: 1072767732}
+  m_IsActive: 0
 --- !u!4 &474942309
 Transform:
   m_ObjectHideFlags: 0
@@ -359,10 +345,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 474942307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcd88e5fa6439a34c920f83a3a62cecf, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d2eba7654c437b4bbc70818c0cb59b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1072767732}
+  timeText: {fileID: 1072767732}
+  timerManager: {fileID: 1024995452}
 --- !u!1 &607758575
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +502,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1024995452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2735635268042857331, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+  m_PrefabInstance: {fileID: 2735635269064698639}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1072767730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,3 +1364,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018988014}
   m_CullTransparentMesh: 1
+--- !u!1001 &2735635269064698639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4502394
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8481225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.62928426
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857329, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735635268042857330, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1072767732}
+    - target: {fileID: 2735635268042857331, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}
+      propertyPath: m_Name
+      value: GameOverManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 371f7b906dda56049a986f71b1fd67a9, type: 3}

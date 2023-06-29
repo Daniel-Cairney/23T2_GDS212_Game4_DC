@@ -1,9 +1,14 @@
 using UnityEngine;
 using TMPro;
 
-public static class GameManager
+public class ScoreManager : MonoBehaviour
 {
-    private static float score;
+    public static float score;
+
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     public static void SetScore(float value)
     {
@@ -18,5 +23,8 @@ public static class GameManager
     public static void ResetScore()
     {
         score = 0f;
+        
     }
+
+   
 }

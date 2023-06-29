@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CubeTrigger : MonoBehaviour
+public class ObstacleTrigger : MonoBehaviour
 {
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -11,6 +11,7 @@ public class CubeTrigger : MonoBehaviour
             // Player enters the cube trigger, perform necessary actions here
             SceneManager.LoadScene("GameOverScene");
             Debug.Log("Player entered the cube trigger!");
+            ScoreManager.SetScore(0);
         }
     }
 }

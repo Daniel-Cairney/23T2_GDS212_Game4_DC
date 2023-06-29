@@ -74,8 +74,11 @@ MonoBehaviour:
   obstaclePrefabs:
   - {fileID: 5113662255416265551, guid: 9040330ed796fd2488cf6266950878d2, type: 3}
   - {fileID: 2799719520086894880, guid: 2c2adf80b8dbabf44b371eff389ad864, type: 3}
+  - {fileID: 139654709340955075, guid: 547771e44bf8df54eb9fb20a22d7af65, type: 3}
+  - {fileID: 5083885187827827502, guid: 779f6ae4fa8dfbd4ca42cd3fe74f8e1f, type: 3}
+  - {fileID: 8020469524716426158, guid: 43c5a3ea7e5794849af5956ca7e9b3f1, type: 3}
   initialSpawnInterval: 2
   minSpawnInterval: 0.5
-  spawnIntervalDecrease: 0.05
+  spawnIntervalDecrease: 0.04
   spawnArea: {fileID: 4722680985292003263}
   obstacleSpeed: 3

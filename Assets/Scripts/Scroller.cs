@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Scroller : MonoBehaviour
 {
-    public float speed = 4f;
-    private Vector3 StartPosition;
+   [SerializeField] private float speed = 4f;
+   [SerializeField] private Vector3 StartPosition;
 
     private void Start()
     {

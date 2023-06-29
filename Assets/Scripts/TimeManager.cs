@@ -5,21 +5,30 @@ using TMPro;
 public class TimeManager : MonoBehaviour
 {
     public TMP_Text timeText;
-    private static float currentTime;
-    private static bool isTimerRunning = true;
+    public static float currentTime;
+    public static bool isTimerRunning = true;
+    [SerializeField] private GameObject timerManager;
 
     private void Start()
     {
         currentTime = 0f;
         isTimerRunning = true;
+        timerManager.SetActive(false);
+        Debug.Log("timerManager is " + timerManager.activeInHierarchy.ToString());
+        Debug.Log(isTimerRunning + "Timer running");
+        
     }
 
     private void Update()
     {
         if (isTimerRunning)
         {
-            currentTime += Time.deltaTime;
-            timeText.text = "Time: " + currentTime.ToString("F2");
+            //Debug.Log("Timer is Running");
+            //currentTime += Time.deltaTime;
+            //timeText.text = "Time: " + currentTime.ToString("F2");
+            //ScoreManager.SetScore(currentTime);
+            timeText.text = "Time: " + Time.timeSinceLevelLoad.ToString("F2");
+            ScoreManager.SetScore(Time.timeSinceLevelLoad);
         }
     }
 
@@ -42,6 +51,8 @@ public class TimeManager : MonoBehaviour
     public void GameOver()
     {
         StopTimer();
+        timerManager.SetActive(true);
         SceneManager.LoadScene("GameOverScene");
+        isTimerRunning = false;
     }
 }
