@@ -99,7 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05b097bf53e70844b021f127c133483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerManager: {fileID: 0}
+  audioSource: {fileID: 5411068140675433429, guid: c7690a13a33475f46adf88d569138dd3, type: 3}
+  birdDeath: {fileID: 8300000, guid: ab20d9ac0d535344d817a7442f3cbaca, type: 3}
 --- !u!61 &2799719520086894886
 BoxCollider2D:
   m_ObjectHideFlags: 0
